@@ -93,7 +93,14 @@ public:
     window_init(window);
     window_settings(debug);
     dispatch_size_default();
+    
   }
+
+public:
+  noresult set_user_agent(const std::string &ua) {
+    return set_user_agent_impl(ua);
+  }
+
 
   cocoa_wkwebview_engine(const cocoa_wkwebview_engine &) = delete;
   cocoa_wkwebview_engine &operator=(const cocoa_wkwebview_engine &) = delete;
@@ -217,6 +224,16 @@ protected:
 
     return window_show();
   }
+
+  //added realisation engine
+
+  noresult set_user_agent_impl(const std::string &ua) override {
+    objc::autoreleasepool arp;
+    auto ua_str = NSString_stringWithUTF8String(ua);
+    WKWebView_set_customUserAgent(m_webview, ua_str);
+    return {};
+  }
+
   noresult navigate_impl(const std::string &url) override {
     objc::autoreleasepool arp;
 

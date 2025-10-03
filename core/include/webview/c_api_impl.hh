@@ -175,12 +175,26 @@ WEBVIEW_API webview_error_t webview_set_title(webview_t w, const char *title) {
   return api_filter([=] { return cast_to_webview(w)->set_title(title); });
 }
 
+
 WEBVIEW_API webview_error_t webview_set_size(webview_t w, int width, int height,
                                              webview_hint_t hints) {
   using namespace webview::detail;
   return api_filter(
       [=] { return cast_to_webview(w)->set_size(width, height, hints); });
 }
+
+/*
+  added webview_set_user_agent function
+*/
+
+WEBVIEW_API webview_error_t webview_set_user_agent(webview_t w, const char *ua) {
+  using namespace webview::detail;
+  if (!ua) {
+    return WEBVIEW_ERROR_INVALID_ARGUMENT;
+  }
+  return api_filter([=] { return cast_to_webview(w)->set_user_agent(ua); });
+}
+
 
 WEBVIEW_API webview_error_t webview_navigate(webview_t w, const char *url) {
   using namespace webview::detail;

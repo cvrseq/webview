@@ -29,6 +29,9 @@
 #if defined(__cplusplus) && !defined(WEBVIEW_HEADER)
 
 #include "../../../../macros.h"
+#include <objc/message.h>   // для objc_msgSend
+#include <objc/runtime.h>   // для sel_registerName
+
 
 #if defined(WEBVIEW_PLATFORM_DARWIN) && defined(WEBVIEW_COCOA)
 
@@ -40,6 +43,13 @@
 #include "WKWebView.hh"
 #include "WKWebViewConfiguration.hh"
 // IWYU pragma: end_exports
+
+inline void WKWebView_set_customUserAgent(id webview, id ua) {
+    ((void (*)(id, SEL, id))objc_msgSend)(webview,
+        sel_registerName("setCustomUserAgent:"), ua);
+}
+
+
 
 #endif // defined(WEBVIEW_PLATFORM_DARWIN) && defined(WEBVIEW_COCOA)
 #endif // defined(__cplusplus) && !defined(WEBVIEW_HEADER)

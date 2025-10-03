@@ -1,0 +1,2 @@
+/Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libwebview.a CMakeFiles/webview_core_static.dir/src/webview.cc.o
+/Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libwebview.a

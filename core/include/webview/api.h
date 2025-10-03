@@ -141,6 +141,21 @@ WEBVIEW_API webview_error_t webview_set_title(webview_t w, const char *title);
  * @param height New height.
  * @param hints Size hints.
  */
+
+
+
+
+WEBVIEW_API webview_error_t webview_set_user_agent(webview_t w, const char *ua); 
+
+/**
+ * Sets a custom User-Agent string for the webview.
+ *
+ * @param w The webview instance.
+ * @param ua User-Agent string (must not be NULL).
+ * @retval WEBVIEW_ERROR_INVALID_ARGUMENT If @p ua is NULL.
+ */
+
+
 WEBVIEW_API webview_error_t webview_set_size(webview_t w, int width, int height,
                                              webview_hint_t hints);
 

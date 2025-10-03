@@ -1,0 +1,2 @@
+/Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libwebview_test_driver.a CMakeFiles/webview_test_driver.dir/src/test_driver.cc.o
+/Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libwebview_test_driver.a

@@ -161,6 +161,7 @@ protected:
   virtual noresult terminate_impl() = 0;
   virtual noresult dispatch_impl(std::function<void()> f) = 0;
   virtual noresult set_title_impl(const std::string &title) = 0;
+  virtual noresult set_user_agent_impl(const std::string &ua) = 0; // added virtual class set_user_agent_impl
   virtual noresult set_size_impl(int width, int height,
                                  webview_hint_t hints) = 0;
   virtual noresult set_html_impl(const std::string &html) = 0;
