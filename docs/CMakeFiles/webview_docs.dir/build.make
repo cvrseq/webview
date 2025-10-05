@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aleksandrsuslin/desktop/webview
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aleksandrsuslin/desktop/webview
+CMAKE_BINARY_DIR = /Users/aleksandrsuslin/Desktop/webview
 
 # Utility rule file for webview_docs.
 
@@ -80,10 +80,10 @@ docs/CMakeFiles/webview_docs.dir/build: webview_docs
 .PHONY : docs/CMakeFiles/webview_docs.dir/build
 
 docs/CMakeFiles/webview_docs.dir/clean:
-	cd /Users/aleksandrsuslin/desktop/webview/docs && $(CMAKE_COMMAND) -P CMakeFiles/webview_docs.dir/cmake_clean.cmake
+	cd /Users/aleksandrsuslin/Desktop/webview/docs && $(CMAKE_COMMAND) -P CMakeFiles/webview_docs.dir/cmake_clean.cmake
 .PHONY : docs/CMakeFiles/webview_docs.dir/clean
 
 docs/CMakeFiles/webview_docs.dir/depend:
-	cd /Users/aleksandrsuslin/desktop/webview && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aleksandrsuslin/desktop/webview /Users/aleksandrsuslin/desktop/webview/docs /Users/aleksandrsuslin/desktop/webview /Users/aleksandrsuslin/desktop/webview/docs /Users/aleksandrsuslin/desktop/webview/docs/CMakeFiles/webview_docs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/aleksandrsuslin/Desktop/webview && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aleksandrsuslin/desktop/webview /Users/aleksandrsuslin/desktop/webview/docs /Users/aleksandrsuslin/Desktop/webview /Users/aleksandrsuslin/Desktop/webview/docs /Users/aleksandrsuslin/Desktop/webview/docs/CMakeFiles/webview_docs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : docs/CMakeFiles/webview_docs.dir/depend
 

@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aleksandrsuslin/desktop/webview
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aleksandrsuslin/desktop/webview
+CMAKE_BINARY_DIR = /Users/aleksandrsuslin/Desktop/webview
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/aleksandrsuslin/desktop/webview
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/aleksandrsuslin/desktop/webview && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/aleksandrsuslin/Desktop/webview && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/aleksandrsuslin/desktop/webview && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake /Users/aleksandrsuslin/desktop/webview/CPackSourceConfig.cmake
+	cd /Users/aleksandrsuslin/Desktop/webview && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake /Users/aleksandrsuslin/Desktop/webview/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/aleksandrsuslin/desktop/webview && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aleksandrsuslin/desktop/webview/CMakeFiles /Users/aleksandrsuslin/desktop/webview/core/tests//CMakeFiles/progress.marks
-	cd /Users/aleksandrsuslin/desktop/webview && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aleksandrsuslin/desktop/webview/CMakeFiles 0
+	cd /Users/aleksandrsuslin/Desktop/webview && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aleksandrsuslin/Desktop/webview/CMakeFiles /Users/aleksandrsuslin/Desktop/webview/core/tests//CMakeFiles/progress.marks
+	cd /Users/aleksandrsuslin/Desktop/webview && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aleksandrsuslin/Desktop/webview/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/aleksandrsuslin/desktop/webview && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/tests/clean
+	cd /Users/aleksandrsuslin/Desktop/webview && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/aleksandrsuslin/desktop/webview && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/tests/preinstall
+	cd /Users/aleksandrsuslin/Desktop/webview && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/aleksandrsuslin/desktop/webview && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/tests/preinstall
+	cd /Users/aleksandrsuslin/Desktop/webview && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/aleksandrsuslin/desktop/webview && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/aleksandrsuslin/Desktop/webview && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 core/tests/CMakeFiles/webview_core_functional_tests.dir/rule:
-	cd /Users/aleksandrsuslin/desktop/webview && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/tests/CMakeFiles/webview_core_functional_tests.dir/rule
+	cd /Users/aleksandrsuslin/Desktop/webview && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/tests/CMakeFiles/webview_core_functional_tests.dir/rule
 .PHONY : core/tests/CMakeFiles/webview_core_functional_tests.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ webview_core_functional_tests: core/tests/CMakeFiles/webview_core_functional_tes
 
 # fast build rule for target.
 webview_core_functional_tests/fast:
-	cd /Users/aleksandrsuslin/desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_functional_tests.dir/build.make core/tests/CMakeFiles/webview_core_functional_tests.dir/build
+	cd /Users/aleksandrsuslin/Desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_functional_tests.dir/build.make core/tests/CMakeFiles/webview_core_functional_tests.dir/build
 .PHONY : webview_core_functional_tests/fast
 
 # Convenience name for target.
 core/tests/CMakeFiles/webview_core_unit_tests.dir/rule:
-	cd /Users/aleksandrsuslin/desktop/webview && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/tests/CMakeFiles/webview_core_unit_tests.dir/rule
+	cd /Users/aleksandrsuslin/Desktop/webview && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/tests/CMakeFiles/webview_core_unit_tests.dir/rule
 .PHONY : core/tests/CMakeFiles/webview_core_unit_tests.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ webview_core_unit_tests: core/tests/CMakeFiles/webview_core_unit_tests.dir/rule
 
 # fast build rule for target.
 webview_core_unit_tests/fast:
-	cd /Users/aleksandrsuslin/desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_unit_tests.dir/build.make core/tests/CMakeFiles/webview_core_unit_tests.dir/build
+	cd /Users/aleksandrsuslin/Desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_unit_tests.dir/build.make core/tests/CMakeFiles/webview_core_unit_tests.dir/build
 .PHONY : webview_core_unit_tests/fast
 
 src/functional_tests.o: src/functional_tests.cc.o
@@ -224,7 +224,7 @@ src/functional_tests.o: src/functional_tests.cc.o
 
 # target to build an object file
 src/functional_tests.cc.o:
-	cd /Users/aleksandrsuslin/desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_functional_tests.dir/build.make core/tests/CMakeFiles/webview_core_functional_tests.dir/src/functional_tests.cc.o
+	cd /Users/aleksandrsuslin/Desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_functional_tests.dir/build.make core/tests/CMakeFiles/webview_core_functional_tests.dir/src/functional_tests.cc.o
 .PHONY : src/functional_tests.cc.o
 
 src/functional_tests.i: src/functional_tests.cc.i
@@ -232,7 +232,7 @@ src/functional_tests.i: src/functional_tests.cc.i
 
 # target to preprocess a source file
 src/functional_tests.cc.i:
-	cd /Users/aleksandrsuslin/desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_functional_tests.dir/build.make core/tests/CMakeFiles/webview_core_functional_tests.dir/src/functional_tests.cc.i
+	cd /Users/aleksandrsuslin/Desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_functional_tests.dir/build.make core/tests/CMakeFiles/webview_core_functional_tests.dir/src/functional_tests.cc.i
 .PHONY : src/functional_tests.cc.i
 
 src/functional_tests.s: src/functional_tests.cc.s
@@ -240,7 +240,7 @@ src/functional_tests.s: src/functional_tests.cc.s
 
 # target to generate assembly for a file
 src/functional_tests.cc.s:
-	cd /Users/aleksandrsuslin/desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_functional_tests.dir/build.make core/tests/CMakeFiles/webview_core_functional_tests.dir/src/functional_tests.cc.s
+	cd /Users/aleksandrsuslin/Desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_functional_tests.dir/build.make core/tests/CMakeFiles/webview_core_functional_tests.dir/src/functional_tests.cc.s
 .PHONY : src/functional_tests.cc.s
 
 src/unit_tests.o: src/unit_tests.cc.o
@@ -248,7 +248,7 @@ src/unit_tests.o: src/unit_tests.cc.o
 
 # target to build an object file
 src/unit_tests.cc.o:
-	cd /Users/aleksandrsuslin/desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_unit_tests.dir/build.make core/tests/CMakeFiles/webview_core_unit_tests.dir/src/unit_tests.cc.o
+	cd /Users/aleksandrsuslin/Desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_unit_tests.dir/build.make core/tests/CMakeFiles/webview_core_unit_tests.dir/src/unit_tests.cc.o
 .PHONY : src/unit_tests.cc.o
 
 src/unit_tests.i: src/unit_tests.cc.i
@@ -256,7 +256,7 @@ src/unit_tests.i: src/unit_tests.cc.i
 
 # target to preprocess a source file
 src/unit_tests.cc.i:
-	cd /Users/aleksandrsuslin/desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_unit_tests.dir/build.make core/tests/CMakeFiles/webview_core_unit_tests.dir/src/unit_tests.cc.i
+	cd /Users/aleksandrsuslin/Desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_unit_tests.dir/build.make core/tests/CMakeFiles/webview_core_unit_tests.dir/src/unit_tests.cc.i
 .PHONY : src/unit_tests.cc.i
 
 src/unit_tests.s: src/unit_tests.cc.s
@@ -264,7 +264,7 @@ src/unit_tests.s: src/unit_tests.cc.s
 
 # target to generate assembly for a file
 src/unit_tests.cc.s:
-	cd /Users/aleksandrsuslin/desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_unit_tests.dir/build.make core/tests/CMakeFiles/webview_core_unit_tests.dir/src/unit_tests.cc.s
+	cd /Users/aleksandrsuslin/Desktop/webview && $(MAKE) $(MAKESILENT) -f core/tests/CMakeFiles/webview_core_unit_tests.dir/build.make core/tests/CMakeFiles/webview_core_unit_tests.dir/src/unit_tests.cc.s
 .PHONY : src/unit_tests.cc.s
 
 # Help Target
@@ -301,6 +301,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/aleksandrsuslin/desktop/webview && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/aleksandrsuslin/Desktop/webview && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

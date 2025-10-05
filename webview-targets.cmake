@@ -74,7 +74,7 @@ set_target_properties(core_static PROPERTIES
 # Import target "core_shared" for configuration "Release"
 set_property(TARGET core_shared APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(core_shared PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/aleksandrsuslin/desktop/webview/core/libwebview.0.12.0.dylib"
+  IMPORTED_LOCATION_RELEASE "/Users/aleksandrsuslin/Desktop/webview/core/libwebview.0.12.0.dylib"
   IMPORTED_SONAME_RELEASE "@rpath/libwebview.0.12.dylib"
   )
 
@@ -82,7 +82,7 @@ set_target_properties(core_shared PROPERTIES
 set_property(TARGET core_static APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(core_static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/Users/aleksandrsuslin/desktop/webview/core/libwebview.a"
+  IMPORTED_LOCATION_RELEASE "/Users/aleksandrsuslin/Desktop/webview/core/libwebview.a"
   )
 
 # This file does not depend on other imported targets which have

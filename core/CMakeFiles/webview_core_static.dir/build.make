@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aleksandrsuslin/desktop/webview
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aleksandrsuslin/desktop/webview
+CMAKE_BINARY_DIR = /Users/aleksandrsuslin/Desktop/webview
 
 # Include any dependencies generated for this target.
 include core/CMakeFiles/webview_core_static.dir/depend.make
@@ -75,16 +75,16 @@ core/CMakeFiles/webview_core_static.dir/codegen:
 core/CMakeFiles/webview_core_static.dir/src/webview.cc.o: core/CMakeFiles/webview_core_static.dir/flags.make
 core/CMakeFiles/webview_core_static.dir/src/webview.cc.o: core/src/webview.cc
 core/CMakeFiles/webview_core_static.dir/src/webview.cc.o: core/CMakeFiles/webview_core_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aleksandrsuslin/desktop/webview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object core/CMakeFiles/webview_core_static.dir/src/webview.cc.o"
-	cd /Users/aleksandrsuslin/desktop/webview/core && /Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/webview_core_static.dir/src/webview.cc.o -MF CMakeFiles/webview_core_static.dir/src/webview.cc.o.d -o CMakeFiles/webview_core_static.dir/src/webview.cc.o -c /Users/aleksandrsuslin/desktop/webview/core/src/webview.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aleksandrsuslin/Desktop/webview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object core/CMakeFiles/webview_core_static.dir/src/webview.cc.o"
+	cd /Users/aleksandrsuslin/Desktop/webview/core && /Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/webview_core_static.dir/src/webview.cc.o -MF CMakeFiles/webview_core_static.dir/src/webview.cc.o.d -o CMakeFiles/webview_core_static.dir/src/webview.cc.o -c /Users/aleksandrsuslin/desktop/webview/core/src/webview.cc
 
 core/CMakeFiles/webview_core_static.dir/src/webview.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/webview_core_static.dir/src/webview.cc.i"
-	cd /Users/aleksandrsuslin/desktop/webview/core && /Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aleksandrsuslin/desktop/webview/core/src/webview.cc > CMakeFiles/webview_core_static.dir/src/webview.cc.i
+	cd /Users/aleksandrsuslin/Desktop/webview/core && /Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aleksandrsuslin/desktop/webview/core/src/webview.cc > CMakeFiles/webview_core_static.dir/src/webview.cc.i
 
 core/CMakeFiles/webview_core_static.dir/src/webview.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/webview_core_static.dir/src/webview.cc.s"
-	cd /Users/aleksandrsuslin/desktop/webview/core && /Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aleksandrsuslin/desktop/webview/core/src/webview.cc -o CMakeFiles/webview_core_static.dir/src/webview.cc.s
+	cd /Users/aleksandrsuslin/Desktop/webview/core && /Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aleksandrsuslin/desktop/webview/core/src/webview.cc -o CMakeFiles/webview_core_static.dir/src/webview.cc.s
 
 # Object files for target webview_core_static
 webview_core_static_OBJECTS = \
@@ -96,19 +96,19 @@ webview_core_static_EXTERNAL_OBJECTS =
 core/libwebview.a: core/CMakeFiles/webview_core_static.dir/src/webview.cc.o
 core/libwebview.a: core/CMakeFiles/webview_core_static.dir/build.make
 core/libwebview.a: core/CMakeFiles/webview_core_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/aleksandrsuslin/desktop/webview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libwebview.a"
-	cd /Users/aleksandrsuslin/desktop/webview/core && $(CMAKE_COMMAND) -P CMakeFiles/webview_core_static.dir/cmake_clean_target.cmake
-	cd /Users/aleksandrsuslin/desktop/webview/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webview_core_static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/aleksandrsuslin/Desktop/webview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libwebview.a"
+	cd /Users/aleksandrsuslin/Desktop/webview/core && $(CMAKE_COMMAND) -P CMakeFiles/webview_core_static.dir/cmake_clean_target.cmake
+	cd /Users/aleksandrsuslin/Desktop/webview/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webview_core_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 core/CMakeFiles/webview_core_static.dir/build: core/libwebview.a
 .PHONY : core/CMakeFiles/webview_core_static.dir/build
 
 core/CMakeFiles/webview_core_static.dir/clean:
-	cd /Users/aleksandrsuslin/desktop/webview/core && $(CMAKE_COMMAND) -P CMakeFiles/webview_core_static.dir/cmake_clean.cmake
+	cd /Users/aleksandrsuslin/Desktop/webview/core && $(CMAKE_COMMAND) -P CMakeFiles/webview_core_static.dir/cmake_clean.cmake
 .PHONY : core/CMakeFiles/webview_core_static.dir/clean
 
 core/CMakeFiles/webview_core_static.dir/depend:
-	cd /Users/aleksandrsuslin/desktop/webview && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aleksandrsuslin/desktop/webview /Users/aleksandrsuslin/desktop/webview/core /Users/aleksandrsuslin/desktop/webview /Users/aleksandrsuslin/desktop/webview/core /Users/aleksandrsuslin/desktop/webview/core/CMakeFiles/webview_core_static.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/aleksandrsuslin/Desktop/webview && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aleksandrsuslin/desktop/webview /Users/aleksandrsuslin/desktop/webview/core /Users/aleksandrsuslin/Desktop/webview /Users/aleksandrsuslin/Desktop/webview/core /Users/aleksandrsuslin/Desktop/webview/core/CMakeFiles/webview_core_static.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : core/CMakeFiles/webview_core_static.dir/depend
 

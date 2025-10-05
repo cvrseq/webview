@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aleksandrsuslin/desktop/webview
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aleksandrsuslin/desktop/webview
+CMAKE_BINARY_DIR = /Users/aleksandrsuslin/Desktop/webview
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/webview_example_bind_c.dir/depend.make
@@ -79,16 +79,16 @@ examples/webview_example_bind_c.app/Contents/Resources/app_icon.icns: examples/r
 examples/CMakeFiles/webview_example_bind_c.dir/bind.c.o: examples/CMakeFiles/webview_example_bind_c.dir/flags.make
 examples/CMakeFiles/webview_example_bind_c.dir/bind.c.o: examples/bind.c
 examples/CMakeFiles/webview_example_bind_c.dir/bind.c.o: examples/CMakeFiles/webview_example_bind_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aleksandrsuslin/desktop/webview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/CMakeFiles/webview_example_bind_c.dir/bind.c.o"
-	cd /Users/aleksandrsuslin/desktop/webview/examples && /Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/webview_example_bind_c.dir/bind.c.o -MF CMakeFiles/webview_example_bind_c.dir/bind.c.o.d -o CMakeFiles/webview_example_bind_c.dir/bind.c.o -c /Users/aleksandrsuslin/desktop/webview/examples/bind.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aleksandrsuslin/Desktop/webview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/CMakeFiles/webview_example_bind_c.dir/bind.c.o"
+	cd /Users/aleksandrsuslin/Desktop/webview/examples && /Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/webview_example_bind_c.dir/bind.c.o -MF CMakeFiles/webview_example_bind_c.dir/bind.c.o.d -o CMakeFiles/webview_example_bind_c.dir/bind.c.o -c /Users/aleksandrsuslin/desktop/webview/examples/bind.c
 
 examples/CMakeFiles/webview_example_bind_c.dir/bind.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/webview_example_bind_c.dir/bind.c.i"
-	cd /Users/aleksandrsuslin/desktop/webview/examples && /Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aleksandrsuslin/desktop/webview/examples/bind.c > CMakeFiles/webview_example_bind_c.dir/bind.c.i
+	cd /Users/aleksandrsuslin/Desktop/webview/examples && /Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aleksandrsuslin/desktop/webview/examples/bind.c > CMakeFiles/webview_example_bind_c.dir/bind.c.i
 
 examples/CMakeFiles/webview_example_bind_c.dir/bind.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/webview_example_bind_c.dir/bind.c.s"
-	cd /Users/aleksandrsuslin/desktop/webview/examples && /Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aleksandrsuslin/desktop/webview/examples/bind.c -o CMakeFiles/webview_example_bind_c.dir/bind.c.s
+	cd /Users/aleksandrsuslin/Desktop/webview/examples && /Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aleksandrsuslin/desktop/webview/examples/bind.c -o CMakeFiles/webview_example_bind_c.dir/bind.c.s
 
 # Object files for target webview_example_bind_c
 webview_example_bind_c_OBJECTS = \
@@ -101,8 +101,8 @@ examples/webview_example_bind_c.app/Contents/MacOS/webview_example_bind_c: examp
 examples/webview_example_bind_c.app/Contents/MacOS/webview_example_bind_c: examples/CMakeFiles/webview_example_bind_c.dir/build.make
 examples/webview_example_bind_c.app/Contents/MacOS/webview_example_bind_c: core/libwebview.a
 examples/webview_example_bind_c.app/Contents/MacOS/webview_example_bind_c: examples/CMakeFiles/webview_example_bind_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/aleksandrsuslin/desktop/webview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable webview_example_bind_c.app/Contents/MacOS/webview_example_bind_c"
-	cd /Users/aleksandrsuslin/desktop/webview/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webview_example_bind_c.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/aleksandrsuslin/Desktop/webview/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable webview_example_bind_c.app/Contents/MacOS/webview_example_bind_c"
+	cd /Users/aleksandrsuslin/Desktop/webview/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webview_example_bind_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/webview_example_bind_c.dir/build: examples/webview_example_bind_c.app/Contents/MacOS/webview_example_bind_c
@@ -110,10 +110,10 @@ examples/CMakeFiles/webview_example_bind_c.dir/build: examples/webview_example_b
 .PHONY : examples/CMakeFiles/webview_example_bind_c.dir/build
 
 examples/CMakeFiles/webview_example_bind_c.dir/clean:
-	cd /Users/aleksandrsuslin/desktop/webview/examples && $(CMAKE_COMMAND) -P CMakeFiles/webview_example_bind_c.dir/cmake_clean.cmake
+	cd /Users/aleksandrsuslin/Desktop/webview/examples && $(CMAKE_COMMAND) -P CMakeFiles/webview_example_bind_c.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/webview_example_bind_c.dir/clean
 
 examples/CMakeFiles/webview_example_bind_c.dir/depend:
-	cd /Users/aleksandrsuslin/desktop/webview && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aleksandrsuslin/desktop/webview /Users/aleksandrsuslin/desktop/webview/examples /Users/aleksandrsuslin/desktop/webview /Users/aleksandrsuslin/desktop/webview/examples /Users/aleksandrsuslin/desktop/webview/examples/CMakeFiles/webview_example_bind_c.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/aleksandrsuslin/Desktop/webview && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aleksandrsuslin/desktop/webview /Users/aleksandrsuslin/desktop/webview/examples /Users/aleksandrsuslin/Desktop/webview /Users/aleksandrsuslin/Desktop/webview/examples /Users/aleksandrsuslin/Desktop/webview/examples/CMakeFiles/webview_example_bind_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : examples/CMakeFiles/webview_example_bind_c.dir/depend
 

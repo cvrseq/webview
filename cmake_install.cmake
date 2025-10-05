@@ -39,27 +39,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/aleksandrsuslin/desktop/webview/compatibility/cmake_install.cmake")
+  include("/Users/aleksandrsuslin/Desktop/webview/compatibility/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/aleksandrsuslin/desktop/webview/test_driver/cmake_install.cmake")
+  include("/Users/aleksandrsuslin/Desktop/webview/test_driver/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/aleksandrsuslin/desktop/webview/core/cmake_install.cmake")
+  include("/Users/aleksandrsuslin/Desktop/webview/core/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/aleksandrsuslin/desktop/webview/examples/cmake_install.cmake")
+  include("/Users/aleksandrsuslin/Desktop/webview/examples/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/aleksandrsuslin/desktop/webview/docs/cmake_install.cmake")
+  include("/Users/aleksandrsuslin/Desktop/webview/docs/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "webview_headers" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,8 +73,8 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "webview_libraries_runtime_release" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-      "/Users/aleksandrsuslin/desktop/webview/core/libwebview.0.12.0.dylib"
-      "/Users/aleksandrsuslin/desktop/webview/core/libwebview.0.12.dylib"
+      "/Users/aleksandrsuslin/Desktop/webview/core/libwebview.0.12.0.dylib"
+      "/Users/aleksandrsuslin/Desktop/webview/core/libwebview.0.12.dylib"
       )
     foreach(file
         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwebview.0.12.0.dylib"
@@ -96,13 +96,13 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "webview_trash" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/aleksandrsuslin/desktop/webview/core/libwebview.dylib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/aleksandrsuslin/Desktop/webview/core/libwebview.dylib")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "webview_trash" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/aleksandrsuslin/desktop/webview/core/libwebview.a")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/aleksandrsuslin/Desktop/webview/core/libwebview.a")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwebview.a" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwebview.a")
       execute_process(COMMAND "/Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwebview.a")
@@ -112,8 +112,8 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "webview_libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/Users/aleksandrsuslin/desktop/webview/core/libwebview.0.12.0.dylib"
-    "/Users/aleksandrsuslin/desktop/webview/core/libwebview.0.12.dylib"
+    "/Users/aleksandrsuslin/Desktop/webview/core/libwebview.0.12.0.dylib"
+    "/Users/aleksandrsuslin/Desktop/webview/core/libwebview.0.12.dylib"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwebview.0.12.0.dylib"
@@ -133,11 +133,11 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "webview_libraries" OR NOT CMAKE_INSTALL_COM
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "webview_libraries" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/aleksandrsuslin/desktop/webview/core/libwebview.dylib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/aleksandrsuslin/Desktop/webview/core/libwebview.dylib")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "webview_libraries" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/aleksandrsuslin/desktop/webview/core/libwebview.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/aleksandrsuslin/Desktop/webview/core/libwebview.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwebview.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwebview.a")
     execute_process(COMMAND "/Users/aleksandrsuslin/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwebview.a")
@@ -148,7 +148,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "webview_cmake" OR NOT CMAKE_INSTALL_COMPONE
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/webview/webview-targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/webview/webview-targets.cmake"
-         "/Users/aleksandrsuslin/desktop/webview/CMakeFiles/Export/430eb9249be4b5c56328442c1cae0bc7/webview-targets.cmake")
+         "/Users/aleksandrsuslin/Desktop/webview/CMakeFiles/Export/430eb9249be4b5c56328442c1cae0bc7/webview-targets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/webview/webview-targets-*.cmake")
       if(_cmake_old_config_files)
@@ -161,29 +161,29 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "webview_cmake" OR NOT CMAKE_INSTALL_COMPONE
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/webview" TYPE FILE FILES "/Users/aleksandrsuslin/desktop/webview/CMakeFiles/Export/430eb9249be4b5c56328442c1cae0bc7/webview-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/webview" TYPE FILE FILES "/Users/aleksandrsuslin/Desktop/webview/CMakeFiles/Export/430eb9249be4b5c56328442c1cae0bc7/webview-targets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/webview" TYPE FILE FILES "/Users/aleksandrsuslin/desktop/webview/CMakeFiles/Export/430eb9249be4b5c56328442c1cae0bc7/webview-targets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/webview" TYPE FILE FILES "/Users/aleksandrsuslin/Desktop/webview/CMakeFiles/Export/430eb9249be4b5c56328442c1cae0bc7/webview-targets-release.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "webview_cmake" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/webview" TYPE FILE FILES
     "/Users/aleksandrsuslin/desktop/webview/cmake/webview.cmake"
-    "/Users/aleksandrsuslin/desktop/webview/webview-config.cmake"
-    "/Users/aleksandrsuslin/desktop/webview/webview-config-version.cmake"
+    "/Users/aleksandrsuslin/Desktop/webview/webview-config.cmake"
+    "/Users/aleksandrsuslin/Desktop/webview/webview-config-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/aleksandrsuslin/desktop/webview/packaging/cmake_install.cmake")
+  include("/Users/aleksandrsuslin/Desktop/webview/packaging/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/aleksandrsuslin/desktop/webview/install_local_manifest.txt"
+  file(WRITE "/Users/aleksandrsuslin/Desktop/webview/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -199,6 +199,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/aleksandrsuslin/desktop/webview/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/aleksandrsuslin/Desktop/webview/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

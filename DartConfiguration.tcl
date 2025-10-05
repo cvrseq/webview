@@ -5,7 +5,7 @@
 
 # Configuration directories and files
 SourceDirectory: /Users/aleksandrsuslin/desktop/webview
-BuildDirectory: /Users/aleksandrsuslin/desktop/webview
+BuildDirectory: /Users/aleksandrsuslin/Desktop/webview
 
 # Where to place the cost data store
 CostDataFile: 
